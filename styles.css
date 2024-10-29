@@ -1,0 +1,41 @@
+body {
+color:rgb(96, 139, 193);
+background: rgb(198, 231, 255);
+padding: 10px;
+}
+header {
+color: rgb(122, 178, 211);
+    border-bottom: solid 3px rgb(122, 178, 211);
+ padding: 0px ;
+font-style: oblique ;
+
+}
+.principal {
+background-color: rgb(255, 246, 227); 
+padding-bottom: 44px;
+padding-top: 12px;
+display:flex;
+justify-content:center;
+}
+
+
+
+.videos {
+   color:rgb(212, 174, 126);
+    background-color: bisque;
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .videos img {
+opacity: 0.4;
+height: 200px;
+ }
+
+ .videos img:hover {
+opacity: 1.5;
+
+
+ }
